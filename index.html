@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="carrousel/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="carrousel/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500&display=swap" rel="stylesheet">
+
+    <title>Cine bit</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-top"></div>
+            <div class="header-bottom">
+                <div class="logo">
+                    <img src="img/Logo-cine-premiere.png" alt="" class="img-logo">
+                </div>
+                <nav class="nav">
+                    <li class="nav-li"><a class="inicio" href="#cartelera">Cartelera</a></li class="nav-li">
+                    <li class="nav-li"><a class="inicio" href="#estrenos-1">Próximos estrenos</a></li>
+                    <li class="nav-li"><a class="inicio" href="#contacto">Contactenos</a></li>
+                    <li class="nav-li"><a id="btn-sobremi">Sobre mí</a></li>
+                </nav>
+                <div class="login">
+                    <button id="login" class="login-btn">INICIAR SESIÓN</button>
+                </div>
+            </div>
+        </header>
+        <a name="estrenos"></a>
+        <div class="caja-usuario">
+            <form action="form" class="form">
+                <input id="txtCorreo" class="correo" type="email" placeholder="Ingrese su correo">
+                <input id="contrasena" class="contraseña" type="password" placeholder="Ingrese su contraseña">
+                <input class="btn-enviar" id="btn-enviar" type="submit" placeholder="Ingresar">
+            </form>
+        </div>
+
+        <section class="section-sobremi">
+            <div class="foto-sobremi">
+                <img src="img/thumbnail_Lumii_20200201_141704511.png" alt="">
+            </div>
+
+            <div id="sobre-mi" class="contenido-sobremi">
+                <h2>Diseñador Industrial  /  Estudiante de Sistemas</h2>
+                <br>
+                <p>¡Hola! mi nombre es Bryam Alfonso Piñeros Hernández tengo 24 años, soy tecnólogo en diseño industrial del SENA, actualmente me encuentro estudiando segundo semestre en desarrollo de software, me gusta el diseño, la fotografía y la programación, aprender por mí mismo todo aquello que me interesa y aveces lo que no también, el indagar sobre como funcionan las cosas me llevo a descubrir la programación y desde ese día se ha convertido en una de mis pasiones favoritas, me gusta enseñar lo que se, y además aprender de las personas que me rodean. </p>
+            </div>
+        </section>
+
+        <section class="publicidad">
+            <div class="cont-pub">
+                <img src="img/banner_home_Preventa-BIRDS-OF-PREY.jpg" alt="">
+            </div>
+        </section>
+
+        <!--inicio ESTRENOS-->
+        <section id="slider1" class="slider">
+            <h2>PRÓXIMOS ESTRENOS</h2>
+            <!--Comienzo carrousel-->
+            <div id="estrenos" class="owl-carousel owl-theme">
+
+            </div>
+            <!--fin carrousel-->
+        </section>
+        <!--FIN ESTRENOS-->
+        <!--inicio CARTELERA-->
+        <section id="slider2" class="slider">
+            <h2><a name="cartelera"></a>CARTELERA ACTUAL</a></h2>
+            <!--Comienzo carrousel-->
+            <div id="cartelera" class="owl-carousel owl-theme">
+
+            </div>
+            <!--fin carrousel-->
+        </section>
+        <!--FIN CARTELERA-->
+
+        <section class="contactanos">
+            <h2><a name=""></a>CONTACTANOS</a></h2>
+            <h5>Correo: Premier@correo.com</h5>
+            <h5>Dirección: Cll 42 sur N° 45 - 58</h5>
+            <h5>Infor: +57 (1) 7584785</h5>
+        </section>
+
+        <!--Inicio footer-->
+        <footer class="footer">
+            <a name="contacto"></a>
+            <div class="redes">
+                <div class="footer-logos">
+                    <img src="img/ico-footer-facebook.png" alt="">
+                    <h3>Facebook
+                        PremierColombia
+                    </h3>
+                </div>
+                <div class="footer-logos">
+                    <img src="img/ico-footer-twitter.png" alt="">
+                    <h3>Twitter
+                        @PremierColombia
+                    </h3>
+                </div>
+                <div class="footer-logos">
+                    <img src="img/ico-footer-instagram.png" alt="">
+                    <h3>Instagram
+                        @Premier_Colombia
+                    </h3>
+                </div>
+            </div>
+        </footer>
+        <!--fin footer-->
+    </div>
+    <script src="carrousel/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="carrousel/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(214, 214, 214);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid #f2f2f2;
+    max-width: 1450px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #ccc;
+    background: #f2f2f2;
+    justify-content: center;
+    
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    border: #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.header-top {
+    width: 100%;
+    height: 30px;
+    background:  #f2f2f2;
+}
+
+.header-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #ccc;
+}
+
+.header-bottom nav {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+.header-bottom nav li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-bottom nav li:hover {
+   color: rgb(119, 119, 119);
+}
+
+.header-bottom nav a{
+    text-decoration: none;
+}
+
+.logo .img-logo {
+    width: 190px;
+    cursor: pointer;
+}
+
+.login {
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.login .login-btn{
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(231, 231, 231);
+    background: black;
+}
+
+.login .login-btn:hover{
+    color: rgb(209, 207, 207);
+}
+
+.caja-usuario {
+    padding-top: 40px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 30px;
+    width: 100%;
+}
+
+.caja-usuario .form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.correo, .contraseña {
+    margin: 5px;
+    width: 30%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+}
+
+.btn-enviar {
+    width: 15%;
+    height: 30px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background: rgb(41, 204, 19);
+    color: white;
+}
+
+.publicidad .cont-pub {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.publicidad .cont-pub img {
+    width: 100%;
+}
+
+.slider {
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.slider h3:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(238, 238, 238);
+   
+}
+
+
+h2 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    padding: 30px;
+    background: #b5121c;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.slider h3 {
+    background: rgb(233, 233, 233);
+    color: black;
+    padding: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.text-estrenos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.contactanos {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.redes {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    background: white;
+    color: black;
+}
+
+.redes div img{
+    display: flex;
+    width: 10%;
+    margin-right: 10px;
+    
+}
+
+.footer-logos{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 65px;
+}
+
+.item {
+    cursor: pointer;
+}
+
+/*----------------------------- ESTILOS ABOUT.HTML -------------------------*/
+
+.section-sobremi {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    background: white;
+    box-shadow: 0 0 10px #ccc;
+    padding: 50px;
+}
+
+.foto-sobremi{
+    width: 22%;
+}
+
+.section-sobremi h2 {
+    font-weight: normal;
+}
+
+.foto-sobremi img{
+    width: 100%;
+}
+
+.contenido-sobremi{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 22px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    body, header {
+        width: 100%;
+    }
+    
+    .header-bottom{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+   
+    .footer .redes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav,.nav-li {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 5%;
+    }
+    
+    .section-sobremi {
+       display: flex;
+       flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .foto-sobremi, .contenido-sobremi {
+        width: 100%;
+    }
+    
+    
+  }
